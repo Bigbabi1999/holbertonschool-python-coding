@@ -17,5 +17,3 @@ class Square:
 
         if size < 0:
             raise ValueError("size must be >= 0")
-
-        {'_Square__size': 3}
