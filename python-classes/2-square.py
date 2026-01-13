@@ -10,7 +10,7 @@ class Square:
         Args:
            size (int): size of the square
         """
-        if not def area(self):
+        if def area(self):
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
