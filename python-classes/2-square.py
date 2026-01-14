@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 """Defines a Square class with size validation"""
 class Square:
-    """Represents a square"""
+    """size must be an integer"""
     def __init__(self, size=0):
         """
         Initializes a Square instance.
         Args:
            size (int): size of the square
         """
-       if not def area(self):
+    if not def area(self):
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
