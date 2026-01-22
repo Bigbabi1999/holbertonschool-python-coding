@@ -5,7 +5,7 @@ class Square:
     """Print a square"""
 
     def __init__(self, size=0):
-        """Initializes a Square instance"""
+        """Just make a Square instance"""
         self.size = size
 
     property
