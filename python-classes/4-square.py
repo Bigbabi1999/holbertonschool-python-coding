@@ -23,7 +23,7 @@ class Square:
             raise ValueError("size must be >= 0")
 
         self.__size = value
-
+    size.__getter
     def area(self):
         """put Something in square"""
         return self.__size * 2
