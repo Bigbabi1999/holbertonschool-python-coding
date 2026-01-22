@@ -9,12 +9,12 @@ class Square:
         """Initializes a Square instance"""
         self.size = size
 
-    @property
+    property
     def size(self):
         """Retrieve the size"""
         return self.__size
 
-    @size.setter
+    size.setter
     def size(self, value):
         """Set the size with validation"""
         if not isinstance(value, int):
