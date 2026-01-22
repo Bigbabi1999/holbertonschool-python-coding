@@ -13,7 +13,7 @@ class Square:
         """Just the size"""
         return self.__size
 
-    size.setter
+    size.__setter
     def size(self, value):
         """Just the size with validation"""
         if isinstance(value, int):
