@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Just to make a Square class with size validation and area calculation"""
 
+
 class Square:
     """Print a square"""
 
@@ -27,12 +28,12 @@ class Square:
     def area(self):
         """Returns the area of the square"""
         return self.__size * self.__size
-    
+
     def my_print(self):
         """Print the square using #"""
         if self.__size == 0:
             print()
             return
-        
+
         for _ in range(self.__size):
             print("#" * self.__size)
