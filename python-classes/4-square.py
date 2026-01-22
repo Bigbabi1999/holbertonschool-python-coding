@@ -25,5 +25,5 @@ class Square:
         self.__size = value
 
     def area(self):
-        """put value in square"""
+        """put Something in square"""
         return self.__size * 2
