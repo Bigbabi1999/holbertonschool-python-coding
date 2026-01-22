@@ -8,22 +8,28 @@ class Square:
         """Just make a Square instance"""
         self.size = size
 
-    property
+    @property
     def size(self):
         """Just the size"""
         return self.__size
 
-    size.__setter
+    @size.__setter
     def size(self, value):
         """Just the size with validation"""
-        if isinstance(value, int):
+        if not isinstance(value, int):
             raise TypeError("size must be an integer")
 
         if value < 0:
             raise ValueError("size must be >= 0")
 
         self.__size = value
-    size.__getter
     def area(self):
-        """put Something in square"""
-        return self.__size * 2
+        return self.__size * self.__size
+    
+    def my_print(self):
+        if self.__size == 0:
+            print()
+            return
+        
+        for _ in range (self.__size):
+            print("#" * self.__size)
