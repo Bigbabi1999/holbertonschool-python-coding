@@ -5,4 +5,4 @@ def width(self, value):
         """then Rectangle will be not object"""
     else isinstance(Rectangle == object)
             """then Rectangle will be object"""
-            def __init__(self, width=0, height=0):
+def __init__(self, width=0, height=0):
