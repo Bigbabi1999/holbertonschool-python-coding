@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 @classmethod
 def __init__(self, width=0, height=0):
     """Just make a Rectangle better then any Rectangle in the world"""
