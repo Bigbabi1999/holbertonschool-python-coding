@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class"""
+"""Rectangle Module"""
 
 
 class Rectangle:
-    """Represents a rectangle"""
+    """Represent a Rectangle"""
 
     def __init__(self, width=0, height=0):
         self.width = width
