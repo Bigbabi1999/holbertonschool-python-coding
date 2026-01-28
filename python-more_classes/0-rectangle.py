@@ -29,7 +29,7 @@ class Rectangle:
 
         return
 
-    @height.setter
+    @height.getter
     def height(self, value):
 
         if not isinstance(value, int):
