@@ -1,8 +1,8 @@
 #!/usr/bin/pyhton3
-"""Defines a Rectangle class with area and perimeter."""
+"""Defines a Rectangle class with area and perimeter"""
 
 class Rectangle:
-    """Represents a rectangle."""
+    """Represents a rectangle"""
 
     def __init__(self, width=0, height=0):
         self.width = width
@@ -10,7 +10,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """Get the width."""
+        """Get the width"""
         return self.__width
     
     @width.setter
@@ -23,7 +23,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Get the height."""
+        """Get the height"""
         return self.__height
         
     @height.setter
@@ -35,11 +35,11 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """Return the rectangle area."""
+        """Return the rectangle area"""
         return self.__width * self.__height
     
     def perimeter(self):
-        """Return the rectangle perimeter."""
+        """Return the rectangle perimeter"""
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__width + self.__height)
