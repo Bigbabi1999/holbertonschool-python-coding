@@ -12,7 +12,7 @@ class Rectangle:
     def width(self):
         """Get the width"""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -25,7 +25,7 @@ class Rectangle:
     def height(self):
         """Get the height"""
         return self.__height
-        
+
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
@@ -37,7 +37,7 @@ class Rectangle:
     def area(self):
         """Return the rectangle area"""
         return self.__width * self.__height
-    
+
     def perimeter(self):
         """Return the rectangle perimeter"""
         if self.__width == 0 or self.__height == 0:
