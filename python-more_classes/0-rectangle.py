@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-"""
-Defines a rectangle class
-"""
-
+"""Defines a rectangle class. """
 
 class Rectangle:
-    """
-    Represents a rectangle
-    """
+    """Represents a rectangle"""
 
     def __init__(self, width = 0, height = 0):
 
