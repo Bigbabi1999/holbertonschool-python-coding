@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class with area, perimeter, and string representation
-"""
+"""Defines a Rectangle class with area, perimeter, and string representation"""
 
 
 class Rectangle:
