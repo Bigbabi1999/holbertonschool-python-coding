@@ -2,6 +2,7 @@
 """Defines a Rectangle class with area, perimeter, and string representation
 """
 
+
 class Rectangle:
     """Represents a rectangle"""
 
