@@ -14,7 +14,7 @@ class Rectangle:
     def width(self):
         """Get the width"""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -27,7 +27,7 @@ class Rectangle:
     def height(self):
         """Get the height"""
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
@@ -43,12 +43,12 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__width + self.__height)
-    
+
     def __str__(self):
         """Return the rectangle using # characters"""
         if self.__width == 0 or self.__height == 0:
             return ""
-        
+
         lines = []
         for _ in range(self.__height):
             lines.append("#" * self.__width)
