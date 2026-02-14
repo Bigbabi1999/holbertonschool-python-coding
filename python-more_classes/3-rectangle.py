@@ -13,7 +13,7 @@ class Rectangle:
     def width(self):
         """Get the width"""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -26,7 +26,7 @@ class Rectangle:
     def height(self):
         """Get the height"""
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
@@ -38,19 +38,19 @@ class Rectangle:
     def area(self):
         """Return the area"""
         return self.width * self.height
-    
+
     def perimeter(self):
         """Return the perimeter"""
         if self.width == 0 or self.height == 0:
             return 0
         return 2 * (self.width + self.height)
-    
+
     def __str__(self):
         """Print rectangle with #"""
         if self.width == 0 or self.height == 0:
             return ""
         return "\n".join("#" * self.width for _ in range(self.height))
-    
+
     def __repr__(self):
         """Return a string that can recreate the object with eval()"""
         return "Rectangle({}, {})".format(self.width, self.height)
