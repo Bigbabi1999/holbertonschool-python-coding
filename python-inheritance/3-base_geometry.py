@@ -7,4 +7,5 @@ class BaseGeometry1():
     pass
 
 class BaseGeometry(BaseGeometry1):
+    """Inheriting another class"""
     pass
