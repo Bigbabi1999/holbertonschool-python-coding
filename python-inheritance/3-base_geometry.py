@@ -2,6 +2,6 @@
 """Module that defines an empty BaseGeometry class"""
 
 
-class BaseGeometry1():
+class BaseGeometry():
     """Empty BaseGeometry class"""
     pass
