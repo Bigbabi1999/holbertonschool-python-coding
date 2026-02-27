@@ -5,7 +5,3 @@
 class BaseGeometry1():
     """Empty BaseGeometry class"""
     pass
-
-class BaseGeometry(BaseGeometry1):
-    """Inheriting another class"""
-    pass
