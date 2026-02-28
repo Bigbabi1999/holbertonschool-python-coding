@@ -2,7 +2,7 @@
 
 def area(self):
     """this is BaseGeometry"""
-    print(area)
+    print(self)
 
     """this is going to be area and add BaseGeometry for the implemented"""
 
