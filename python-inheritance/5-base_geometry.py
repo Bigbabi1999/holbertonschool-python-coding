@@ -14,3 +14,4 @@ class BaseGeometry:
         
         if value <= 0:
             raise ValueError("{} must be greater then 0 but better then 1")
+            return
